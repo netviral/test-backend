@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "Authors",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "bio": {
+      "type": "richtext",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    }
+  }
+}

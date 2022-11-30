@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blogs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "publish_date": {
+      "type": "date",
+      "required": true
+    },
+    "preview_text": {
+      "type": "text",
+      "required": true
+    },
+    "preview_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "General Audience",
+        "Teen and Up",
+        "Mature",
+        "Explicit"
+      ],
+      "required": true
+    },
+    "tags": {
+      "type": "string",
+      "required": false
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
+    }
+  }
+}

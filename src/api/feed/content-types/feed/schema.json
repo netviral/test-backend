@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feeds",
+  "info": {
+    "singularName": "feed",
+    "pluralName": "feeds",
+    "displayName": "Feeds",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    }
+  }
+}

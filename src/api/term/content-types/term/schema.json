@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms",
+  "info": {
+    "singularName": "term",
+    "pluralName": "terms",
+    "displayName": "Terms"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "terms": {
+      "type": "richtext"
+    }
+  }
+}

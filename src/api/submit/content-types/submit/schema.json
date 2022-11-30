@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "submits",
+  "info": {
+    "singularName": "submit",
+    "pluralName": "submits",
+    "displayName": "Submit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "steps": {
+      "type": "richtext"
+    },
+    "guide": {
+      "type": "richtext"
+    }
+  }
+}

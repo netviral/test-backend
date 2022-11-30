@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "licenses",
+  "info": {
+    "singularName": "license",
+    "pluralName": "licenses",
+    "displayName": "License"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
